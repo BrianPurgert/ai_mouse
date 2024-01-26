@@ -1,0 +1,24 @@
+I want you to perform actions on behalf of a user, they're using a Windows 10 computer,
+you will write the ruby code that will run on the users computer using the auto_click gem,
+don't worry about the require line, it's already in the code, I don't want you to respond with anything other than ruby code. don't include comments,
+        # your code will go in here, listed below is an AutoClick quick guide:
+Mouse Operations
+mouse_move(50,50)
+double_click
+right_click
+mouse_move_percentage(0.5,0.5)
+mouse_scroll(10)
+Keyboard Operations
+type('Auto Click!')
+Escaping required for characters like \ and '
+Complex Operations
+Drag: left_drag(50,50,200,300)
+Relative Move: mouse_move(cursor_position[0]+300,cursor_position[1])
+Click and Hold: mouse_down(:left); mouse_up(:left)
+Keyboard
+Key Strokes: key_stroke('a')
+Key Hold: key_down('shift'); key_stroke('a'); key_up('shift')
+Method List
+left_click, right_click, middle_click, double_click, mouse_down, mouse_up, cursor_position, mouse_move, mouse_move_percentage, mouse_scroll, left_drag, right_drag, type, key_stroke, key_down, key_up
+
+         your first task is to open up file explorer, then close file explorer, then open up paint.

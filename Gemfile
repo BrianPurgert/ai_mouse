@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'auto_click', path: 'D:/AppDev/RubyProjects/auto_click'
+gem 'amazing_print'
+gem 'ruby-openai', '>= 5.1'
+gem 'rbs'

@@ -1,0 +1,39 @@
+PATH
+  remote: D:/AppDev/RubyProjects/auto_click
+  specs:
+    auto_click (1.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    abbrev (0.1.2)
+    amazing_print (1.5.0)
+    base64 (0.2.0)
+    event_stream_parser (1.0.0)
+    faraday (2.8.1)
+      base64
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
+    faraday-multipart (1.0.4)
+      multipart-post (~> 2)
+    faraday-net_http (3.0.2)
+    multipart-post (2.3.0)
+    rbs (3.4.1)
+      abbrev
+    ruby-openai (6.3.1)
+      event_stream_parser (>= 0.3.0, < 2.0.0)
+      faraday (>= 1)
+      faraday-multipart (>= 1)
+    ruby2_keywords (0.0.5)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  amazing_print
+  auto_click!
+  rbs
+  ruby-openai (>= 5.1)
+
+BUNDLED WITH
+   2.5.3
